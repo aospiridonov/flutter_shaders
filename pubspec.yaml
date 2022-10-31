@@ -21,6 +21,7 @@ version: 1.0.0+1
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
+  #flutter: ^3.4.0 
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -53,7 +54,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  shaders:
+    - shaders/shader1.glsl
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
