@@ -55,8 +55,9 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   shaders:
-    - shaders/shader_sky.glsl
     - shaders/shader1.glsl
+    - shaders/shader_sky.glsl
+    - shaders/shader_sky_move.glsl
     
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
